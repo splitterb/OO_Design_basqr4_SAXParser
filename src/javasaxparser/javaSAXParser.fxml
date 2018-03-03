@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="406.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javasaxparser.javaSAXParserController">
+   <children>
+      <Button fx:id="openFileButton" layoutX="212.0" layoutY="322.0" mnemonicParsing="false" onAction="#openFile" text="Open File" />
+      <TextArea fx:id="textArea" layoutX="45.0" layoutY="26.0" prefHeight="283.0" prefWidth="418.0" />
+   </children>
+</AnchorPane>
